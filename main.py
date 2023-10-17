@@ -130,7 +130,7 @@ tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir, histogram_fre
                                                    embeddings_data=train_data)
 
 
-model.fit(train_data, validation_data=val_data, epochs = 10, callbacks=[tensorboard_callback])
+model.fit(train_data, validation_data=val_data, epochs = 300, callbacks=[tensorboard_callback])
 
 
 ####################################################################################################
